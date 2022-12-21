@@ -39,7 +39,7 @@ class ViewController: UIViewController {
         
         // Passing this action to the alert controller so it can be dismissed
         alertController.addAction(action)
-        
+        print("this is just a change")
         present(alertController, animated: true, completion: nil)
     }
     override func viewDidLoad() {
